@@ -17,7 +17,7 @@ function currentTime(data) {
 
 const paused = localStorage.getItem(CURRENT_TIME);
 
-let parsedTime;
+let parsedTime = 0;
 
 function timeSet(paused) {
     if (paused) {
