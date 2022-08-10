@@ -24,6 +24,9 @@ function onFormSubmit(evt) {
         return alert('All fields must be filled!');
     }
 
+    refs.email = '';
+    refs.textarea = '';
+
     evt.currentTarget.reset();
     localStorage.removeItem(STORAGE_MSG);
     console.log(formData);
