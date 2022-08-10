@@ -4,7 +4,7 @@ import Vimeo from '@vimeo/player';
 const iframe = document.querySelector('iframe');
 // console.log(iframe);
 
-const player = new Player(iframe);
+const player = new Vimeo(iframe);
 // console.log(player)
 
 const CURRENT_TIME = "videoplayer-current-time";
